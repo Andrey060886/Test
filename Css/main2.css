@@ -1,0 +1,41 @@
+@media screen and (max-width:1199px){
+    .news h1, .sab h2{
+        margin: 50px 0;
+    }
+    .block1{
+        display: block;
+        text-align: center;
+    }
+    .block1 .menu{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .block1 .items .sort p{
+        margin-top: 30px;
+    }
+    .boxes{
+        justify-content: space-around;
+        
+    }
+    .news .boxes{
+        flex-wrap: wrap;
+        max-width: 775px;
+        margin: 0 auto;
+    }
+    .news .boxes .box{
+        margin-bottom: 20px;
+    }
+    .sab h2{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:767px){
+    .boxes .box figure p{
+    text-align: center;
+    }
+}
+@media screen and (max-width:576px){
+    .sab form div input[type="submit"]{
+        margin-top: 20px;
+    }
+}
